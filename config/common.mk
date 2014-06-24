@@ -103,6 +103,10 @@ PRODUCT_PACKAGES += \
     libFFmpegExtractor \
     libnamparser
 
+# Add VIPER4Android
+PRODUCT_COPY_FILES += \
+    vendor/slim/prebuilt/common/app/VIPER4Android.apk:system/priv-app/VIPER4Android.apk
+
 # easy way to extend to add more packages
 -include vendor/extra/product.mk
 
