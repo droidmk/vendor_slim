@@ -68,7 +68,8 @@ PRODUCT_PACKAGES += \
     SpareParts \
     Superuser \
     su \
-    Trebuchet
+    Trebuchet \
+    VIPER4Android
 
 # Optional packages
 PRODUCT_PACKAGES += \
