@@ -68,8 +68,7 @@ PRODUCT_PACKAGES += \
     SpareParts \
     Superuser \
     su \
-    Trebuchet \
-    VIPER4Android
+    Trebuchet
 
 # Optional packages
 PRODUCT_PACKAGES += \
@@ -104,9 +103,9 @@ PRODUCT_PACKAGES += \
     libFFmpegExtractor \
     libnamparser
 
-# Add VIPER4Android
+# Add ViPER4Android
 PRODUCT_COPY_FILES += \
-    vendor/slim/prebuilt/common/app/VIPER4Android.apk:system/priv-app/VIPER4Android.apk
+    vendor/slim/prebuilt/common/app/ViPER4Android.apk:system/app/ViPER4Android.apk
 
 # easy way to extend to add more packages
 -include vendor/extra/product.mk
