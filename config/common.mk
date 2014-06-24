@@ -105,7 +105,7 @@ PRODUCT_PACKAGES += \
 
 # Add ViPER4Android
 PRODUCT_COPY_FILES += \
-    vendor/slim/prebuilt/common/app/ViPER4Android.apk:system/app/ViPER4Android.apk
+    vendor/slim/prebuilt/common/app/ViPER4Android.apk:system/priv-app/ViPER4Android.apk
 
 # easy way to extend to add more packages
 -include vendor/extra/product.mk
